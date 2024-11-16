@@ -1,0 +1,65 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FADADD; /* Baby pink background color */
+    color: #333; /* Dark text for better readability */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styling */
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #333; /* Ensure it contrasts with the pink background */
+}
+
+/* Container styling for posts */
+#posts {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Individual post styling */
+.post {
+    border: 1px solid #ccc; /* Light border for subtle separation */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #fff; /* White background for posts */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Loader animation styling */
+.loader {
+    border: 16px solid #ccc;
+    border-top: 16px solid #F47373; /* Light coral loader color */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+/* Keyframes for loader spin */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Add some spacing around the heading */
+.heading {
+    padding: 20px 0;
+    background-color: #FFD1DC; /* Slightly darker pink for the heading */
+    border-bottom: 1px solid #ccc;
+}
